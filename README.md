@@ -32,7 +32,7 @@ Smart Air System is an IoT project based on ESP32 designed to monitor ambient ai
 8. Final inference results are displayed on the OLED screen
 9. Inference results and sensor data are sent via MQTT and visualized on two separate web dashboards (institutional and public)
 
-## 📚 What I Learned
+## What I Learned
 - How to deploy and run edge AI models on ESP32
 - Techniques to improve AI model performance on resource-limited devices
 - Validating sensor input data directly in firmware
