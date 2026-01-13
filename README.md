@@ -48,7 +48,7 @@ The model receives multi-parameter inputs derived from both local sensors and ex
 Model development, training, optimization, and deployment are conducted using Edge Impulse, allowing the neural network to be efficiently executed on the ESP32 with minimal latency and resource usage.
 
 Source code and implementation details are available at:
-[https://github.com/mahyamadelta/Smart-Air-System](https://studio.edgeimpulse.com/public/874413/live)
+[Link Edge Impulse](https://studio.edgeimpulse.com/public/874413/live)
 
 ## How Can This Project Be Improved?
 - Adding a solar power system for energy efficiency
