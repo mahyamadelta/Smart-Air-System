@@ -41,10 +41,12 @@ Smart Air System is an IoT project based on ESP32 designed to monitor ambient ai
 - Designing separated dashboards for institutional and public users
 - Building an end-to-end IoT system from real-world use cases
 
-AI Model: Neural Network Classification
+## AI Model: Neural Network Classification
 This system employs a neural network–based classification model deployed on the edge device. The model is designed to classify air quality conditions directly into ISPU categories rather than performing pure numerical regression. The neural network consists of multiple fully connected layers with ReLU activation functions and a softmax output layer, enabling the system to produce probabilistic class predictions for air quality levels.
+
 The model receives multi-parameter inputs derived from both local sensors and external data sources, processes them through the neural network, and outputs a discrete air quality class (e.g., Good, Moderate, Unhealthy). This classification-based approach improves interpretability, supports rule-based decision validation, and aligns well with real-time alerting requirements.
 Model development, training, optimization, and deployment are conducted using Edge Impulse, allowing the neural network to be efficiently executed on the ESP32 with minimal latency and resource usage.
+
 Source code and implementation details are available at:
 [https://github.com/mahyamadelta/Smart-Air-System](https://studio.edgeimpulse.com/public/874413/live)
 
