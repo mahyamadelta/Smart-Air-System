@@ -70,7 +70,7 @@ Source code and implementation details are available at:
 
    ```bash
    streamlit run dashboard_public.py
-   streamlit run dashboard_institution.py
+   streamlit run dashboard_admin.py
    ```
 
    ```bash
